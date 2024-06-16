@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Agendamento</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+
+        <ul class="cabecalho__lista">
+            <li class="cabecalho__lista-item-ag"><a href="index.html" class="cabecalho__texto-agendamento">Home</a></li>
+            <li class="cabecalho__lista-item-ag"><a href="#contatos" class="cabecalho__texto-agendamento">Contate-nos</a></li>
+        </ul>
+
+    </header>
+
+    <main>
+
+        <div class="container__foto">
+            <img src="/img/logo_biodelivery.png" alt="Logo biodelivery" class="logo_biodelivery">
+        </div>
+        
+        <section class="agendamento">
+            <button class="agendamento__botao">Agendar coleta</button>
+            <div id="formulario_agendamento" class="agendamento__card apagado">
+                <h2 class="agendamento_subtitulo">Sua coleta</h2>
+                <ul class="agendamento__lista">
+                        <li class="agendamento__lista-item"><input type="text" id="nome" class="agendamento__input" placeholder="Nome"></li>
+                        <li class="agendamento__lista-item"><input type="text" id="endereco" class="agendamento__input" placeholder="Endereço"></li>
+                        <li class="agendamento__lista-item"><input type="text" id="complemento" class="agendamento__input" placeholder="Complemento"></li>
+                        <li class="agendamento__lista-item"><input type="date" id="data" class="agendamento__input"></li>
+                        <h2 class="agendamento_subtitulo">Tipo de Lixo</h2>
+                        <div class="check">
+                            <li><input type="checkbox" id="lixo" class="agendamento__input"><p class="check_texto">Lixo eletrônico</p></li>
+                            <li><input type="checkbox" id="pilhas" class="agendamento__input"><p class="check_texto">Pilhas e/ou baterias</p></li>
+                            <li><input type="checkbox" id="lampadas" class="agendamento__input"><p class="check_texto">Lampadas</p></li>
+                        </div>
+                </ul>
+                    <input type="submit" id="botao_enviar" class="enviar" placeholder="enviar"> 
+            </div>
+            
+        </section>
+
+        <section class="main__section-contato" id="contatos">
+            <h2 class="main__titulo">Contatos</h2>
+            <ul class="main-lista-contato">
+                <li class="main-lista-item"><a href="https://api.whatsapp.com/send?phone=5555999024157&text=Texto%20aqui" class="main-lista-icon" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
+                <li class="main-lista-item"><a href="https://mail.google.com/mail/u/1/#inbox?compose=DmwnWtMfzvJtqQjzbGLKGbBNDcJmxHKgJPGtQLmknmdNtWnCtPSzqHhdLtMjtzvgSPGwXgVvfFBq" class="main-lista-icon" target="_blank"><i class="bi bi-envelope-at"></i></a></li>
+                <li class="main-lista-item"><a href="https://www.instagram.com/messias_og?igsh=cHpodWU5eTBlMzI4" class="main-lista-icon" target="_blank"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por João cândido Messias e Richard Matge<br><i class="bi bi-c-circle-fill"></i></p>
+    </footer>
+
+</body>
+</html>

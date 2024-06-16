@@ -1,0 +1,89 @@
+.cabecalho{
+    font-family: var(--fonte-principal);
+    background-color: var(--verde);
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between; 
+    padding: 1.5em 6em 0.7em 0;  
+}
+
+.cabecalho__lista{
+    display: flex;
+    list-style: none;
+}
+
+.cabecalho__lista-item{
+    margin-left: 0em;
+}
+
+.cabecalho__lista-item-ag{
+    margin: right 4em;
+}
+
+
+.cabecalho__texto{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 24px;
+    display: none;
+}
+
+.cabecalho__texto-agendamento{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.cabecalho__ag{
+    margin: 1em;
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--branco);
+    background-color: var(--preto);
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.2em 0.2em;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .cabecalho__texto{
+        text-decoration: none;
+        color: var(--preto);
+        font-size: 20px;
+        display: block;
+        margin-left: 1em;
+    }
+
+    .cabecalho__ag{
+        text-decoration: none;
+        font-size: 20px;
+        color: var(--branco);
+        background-color: var(--preto);
+        border-radius: 10px;
+        padding: 0.2em 0.2em;
+        text-align: right;
+    }
+
+  }
+
+  @media screen and (min-width:1025px){
+    .cabecalho__texto{
+        text-decoration: none;
+        color: var(--preto);
+        font-size: 22px;
+        display: block;
+        margin-left: 1em;
+    }
+
+    .cabecalho__ag{
+        text-decoration: none;
+        font-size: 22px;
+        color: var(--branco);
+        background-color: var(--preto);
+        border-radius: 10px;
+        padding: 0.2em 0.2em;
+        
+       
+    }
+  }

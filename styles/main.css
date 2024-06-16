@@ -1,0 +1,148 @@
+
+.container__foto{
+    text-align: center;
+}
+
+.logo_biodelivery{
+    width: 50vw;
+}
+
+.main__section{ 
+    height: 80vh;
+}
+
+.main__titulo{
+    margin-top: 1.5em;
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    color: var(--preto);
+    font-size: 40px;
+}
+
+.main-texto{
+    margin: 4.5em 10vw;
+    text-align: justify;
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+}
+
+.main-lista{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0 8vw;
+}
+
+.main-lista-tem{
+    display: block;
+    text-align: center;
+}
+
+.main-img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 30px;
+}
+
+.main-img-descricao{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 12  px;
+}
+
+.main__section-objts{
+    height: 70vh;
+}
+
+.main__section-contato{
+    height: 20vh;
+}
+
+.main-lista-contato{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 2em 20vw;
+}
+
+.main-lista-icon{
+    color: var(--preto);
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .main-img{
+        height: 10rem;
+        width: 10rem;
+        border-radius: 30px;
+    }
+
+    .main__section-objts{
+        height: 60vh;
+    }
+    .main-lista-contato{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin:1em 35vw 3em 35vw;
+    }
+}
+
+@media screen and (min-width:1025px){
+    .logo_biodelivery{
+        width: 30vw;
+    }
+
+    .main__section{ 
+        height: 110vh;
+    }
+
+    .main__section-objts{
+        height: 70vh;
+    }
+
+    .main__titulo{
+        margin-top: 4emem;
+        font-family: var(--fonte-secundaria);
+        text-align: center;
+        color: var(--preto);
+        font-size: 40px;
+    }
+
+    .main-texto{
+        margin: 4.5em 15vw;
+        text-align: justify;
+        font-family: var(--fonte-principal);
+        color: var(--preto);
+        font-size: 20px;
+    }
+
+    .main-img{
+        height: 15rem;
+        width: 15rem;
+        border-radius: 30px;
+    }
+
+    .main-img-descricao{
+        margin-top: 1em;
+        text-align: center;
+        font-family: var(--fonte-principal);
+        color: var(--preto);
+        font-size: 15px;
+    }
+
+    .main-lista-contato{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        margin: 2em 40vw;
+    }
+
+    .main-lista-icon{
+        color: var(--preto);
+        font-size: 40px;
+        margin: 2em 0;
+    }
+    
+}
