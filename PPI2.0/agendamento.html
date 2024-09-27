@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Agendamento</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+
+        <ul class="cabecalho__lista">
+            <li class="cabecalho__lista-item-ag"><a href="index.html" class="cabecalho__texto-agendamento">Home</a></li>
+            <li class="cabecalho__lista-item-ag"><a href="#contatos" class="cabecalho__texto-agendamento">Contate-nos</a></li>
+        </ul>
+
+    </header>
+
+    <main>
+
+        <div class="container__foto">
+            <img src="/img/Green & White Company Logo.png" alt="Logo biodelivery" class="logo_biodelivery">
+        </div>
+        
+        <section class="agendamento">
+            <div class="elemento">
+            <!--<div class="agendamento__elemento concluido">
+                    <p class="comentario_agendamento">comentario do agendamento</p>
+                    <div class="agendamento__func">
+                        <i class="bi bi-pencil" id="editar"></i>
+                        <i class="bi bi-check-circle" id="validar"></i>
+                        <i class="bi bi-trash" id="excluir"></i>
+                    </div> 
+                </div> -->
+            </div>
+                
+
+            <button class="agendamento__botao">Agendar coleta</button>
+
+            <div id="formulario_agendamento" class="agendamento__card apagado">
+                <h2 class="agendamento_subtitulo">Sua coleta</h2>
+                <ul class="agendamento__lista">
+                        <li class="agendamento__lista-item"><input type="text" id="nome" class="agendamento__input" placeholder="Nome" required></li>
+                        <li class="agendamento__lista-item"><input type="text" id="endereco" class="agendamento__input" placeholder="Endereço" required></li>
+                        <li class="agendamento__lista-item"><input type="text" id="complemento" class="agendamento__input" placeholder="Complemento"></li>
+                        <li class="agendamento__lista-item"><input type="date" id="data" class="agendamento__input" required></li>
+                        <li ><h2 class="agendamento_subtitulo">Comentário</h2><textarea name="comentario" id="comentario" class="comentario"></textarea></li>
+                        
+                </ul>
+                    <input type="submit" id="botao_enviar" class="enviar" placeholder="enviar"> 
+            </div>
+            
+        </section>
+   
+
+        <section class="main__section-contato" id="contatos">
+            <h2 class="main__titulo">Contatos</h2>
+            <ul class="main-lista-contato">
+                <li class="main-lista-item"><a href="#" class="main-lista-icon"><i class="bi bi-whatsapp"></i></a></li>
+                <li class="main-lista-item"><a href="#" class="main-lista-icon"><i class="bi bi-envelope-at"></i></a></li>
+                <li class="main-lista-item"><a href="#" class="main-lista-icon"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">Desenvolvido por João cândido Messias e Richard Matge<br><i class="bi bi-c-circle-fill"></i></p>
+    </footer>
+
+</body>
+</html>
